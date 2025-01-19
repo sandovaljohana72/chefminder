@@ -1,0 +1,99 @@
+/* --- Imports --- */
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&family=Oldenburg&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+@import url('normalize.css');
+
+/* --- CSS Variables --- */
+:root {
+    /* Colors */
+    --primary-color: #C9004C;
+    --secondary-color: #FF662B;
+    --accent-color: #2BFF8A;
+    --bg-sectionweekmenu-color: #FFEE54;
+    --text-color: #000000;
+    --text-light-color: #ffffff;
+    --placeholder-color: #ffffff51;
+    --border-color: #ddd;
+    --meal-cell-color: #FF662B;
+    --meal-cell-color2: #FFEE54;
+
+    /* Fonts */
+    --primary-font: "Just Me Again Down Here", serif;
+    --secondary-font: "Oldenburg", serif;
+    --texts-font: "Zain", serif;
+    --font-size-logo: 2.5rem;
+    --font-size-herotitle: clamp(1.5rem, 5vw, 3rem);
+    --font-size-herotexts: clamp(1rem, 3vw, 2rem);
+    --font-size-calendar: clamp(0.5rem, 2vw, 1rem);
+
+}
+
+/* --- Font Customizations --- */
+
+/* Just Me Again Down Here font */
+.just-me-again-down-here {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    /* Regular weight */
+    font-style: normal;
+}
+
+/* Oldenburg font */
+.oldenburg {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    /* Regular weight */
+    font-style: normal;
+}
+
+/* Zain font family with modifiers */
+.zain {
+    font-family: var(--zain-font);
+}
+
+.zain--extra-light {
+    font-weight: 100;
+    /* Extra-light weight */
+    font-style: normal;
+}
+
+.zain--light {
+    font-weight: 300;
+    /* Light weight */
+    font-style: normal;
+}
+
+.zain--regular {
+    font-weight: 400;
+    /* Regular weight */
+    font-style: normal;
+}
+
+.zain--bold {
+    font-weight: 700;
+    /* Bold weight */
+    font-style: normal;
+}
+
+.zain--extra-bold {
+    font-weight: 800;
+    /* Extra-bold weight */
+    font-style: normal;
+}
+
+.zain--black {
+    font-weight: 900;
+    /* Black weight (heaviest) */
+    font-style: normal;
+}
+
+.zain--light-italic {
+    font-weight: 300;
+    /* Light weight */
+    font-style: italic;
+}
+
+.zain--regular-italic {
+    font-weight: 400;
+    /* Regular weight */
+    font-style: italic;
+}
