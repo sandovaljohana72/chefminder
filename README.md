@@ -4,7 +4,7 @@ Chef Minder is a responsive web application designed to help you effortlessly pl
 
 ### Deploy
 
-
+https://chefminder.netlify.app/
 
 ### Features
 
@@ -29,7 +29,7 @@ Chef Minder is a responsive web application designed to help you effortlessly pl
 ~~~
 Clone the repository:
 
-git clone https://github.com/your-username/chef-minder.git
+git clone https://github.com/sandovaljohana72/chef-minder.git
 
 Navigate to the project folder:
 
